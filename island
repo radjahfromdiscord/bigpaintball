@@ -1,0 +1,1149 @@
+--Yeah the stupid island made by radjah#9900 btw 
+
+local Part = Instance.new("Part")
+Part.Anchored = true
+Part.BottomSurface = Enum.SurfaceType.Smooth
+Part.TopSurface = Enum.SurfaceType.Smooth
+Part.Color = Color3.fromRGB(87, 170, 87)
+Part.Material = Enum.Material.SmoothPlastic
+Part.Size = Vector3.new(483.54611206055, 34.068500518799, 520.73394775391)
+Part.CFrame = CFrame.new(-4298.3037109375, 1369.9865722656, 13903.21484375)
+
+local Part1 = Instance.new("Part")
+Part1.Anchored = true
+Part1.BottomSurface = Enum.SurfaceType.Smooth
+Part1.TopSurface = Enum.SurfaceType.Smooth
+Part1.Color = Color3.fromRGB(99, 95, 98)
+Part1.Material = Enum.Material.SmoothPlastic
+Part1.Size = Vector3.new(487.89883422852, 47.610000610352, 524.51995849609)
+Part1.CFrame = CFrame.new(-4298.3037109375, 1347.7709960938, 13903.21484375)
+Part1.Parent = Part
+
+local Part2 = Instance.new("Part")
+Part2.Anchored = true
+Part2.BottomSurface = Enum.SurfaceType.Smooth
+Part2.TopSurface = Enum.SurfaceType.Smooth
+Part2.Color = Color3.fromRGB(205, 205, 205)
+Part2.Material = Enum.Material.SmoothPlastic
+Part2.Size = Vector3.new(161.81132507324, 37.283317565918, 14.628381729126)
+Part2.CFrame = CFrame.new(-4329.9365234375, 1405.6624755859, 13812.040039063)
+Part2.Parent = Part
+
+local Part3 = Instance.new("Part")
+Part3.Anchored = true
+Part3.BottomSurface = Enum.SurfaceType.Smooth
+Part3.TopSurface = Enum.SurfaceType.Smooth
+Part3.Color = Color3.fromRGB(255, 89, 89)
+Part3.Material = Enum.Material.SmoothPlastic
+Part3.Size = Vector3.new(163.03468322754, 13.895359039307, 18.001619338989)
+Part3.CFrame = CFrame.new(-4329.9365234375, 1393.9685058594, 13812.040039063)
+Part3.Parent = Part
+
+local Part4 = Instance.new("Part")
+Part4.Anchored = true
+Part4.BottomSurface = Enum.SurfaceType.Smooth
+Part4.TopSurface = Enum.SurfaceType.Smooth
+Part4.Color = Color3.fromRGB(4, 175, 236)
+Part4.Material = Enum.Material.SmoothPlastic
+Part4.Size = Vector3.new(163.03468322754, 13.895359039307, 18.001619338989)
+Part4.CFrame = CFrame.new(-4329.9365234375, 1393.9685058594, 13953.025390625)
+Part4.Parent = Part
+
+local Part5 = Instance.new("Part")
+Part5.Anchored = true
+Part5.BottomSurface = Enum.SurfaceType.Smooth
+Part5.TopSurface = Enum.SurfaceType.Smooth
+Part5.Color = Color3.fromRGB(205, 205, 205)
+Part5.Material = Enum.Material.SmoothPlastic
+Part5.Size = Vector3.new(161.81132507324, 37.283317565918, 14.628381729126)
+Part5.CFrame = CFrame.new(-4329.9365234375, 1405.6624755859, 13953.025390625)
+Part5.Parent = Part
+
+local Part6 = Instance.new("Part")
+Part6.Anchored = true
+Part6.Color = Color3.fromRGB(108, 88, 75)
+Part6.Material = Enum.Material.SmoothPlastic
+Part6.Size = Vector3.new(0.45054474473, 5.4065370559692, 0.225272372365)
+Part6.CFrame = CFrame.new(-4407.2592773438, 1389.6448974609, 13852.404296875, -0.89847034215927, 0, 0.43904605507851, 0, 1, 0, -0.43904605507851, 0, -0.89847034215927)
+Part6.Parent = Part
+
+local PartTerrainJoint = Instance.new("ManualWeld")
+PartTerrainJoint.Name = "Part Terrain Joint"
+PartTerrainJoint.Parent = Part6
+
+local Text = Instance.new("Part")
+Text.Name = "Text"
+Text.Anchored = true
+Text.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+Text.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+Text.Color = Color3.fromRGB(108, 88, 75)
+Text.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+Text.Material = Enum.Material.SmoothPlastic
+Text.Size = Vector3.new(4.4716567993164, 2.4892597198486, 0.225272372365)
+Text.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+Text.CFrame = CFrame.new(-4407.4423828125, 1390.8895263672, 13852.817382813, -0.89847022294998, 0, 0.43904605507851, 0, 1, 0, -0.43904605507851, 0, -0.89847022294998)
+Text.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+Text.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+Text.formFactor = Enum.FormFactor.Custom
+Text.Parent = Part
+
+local SurfaceGui = Instance.new("SurfaceGui")
+SurfaceGui.CanvasSize = Vector2.new(200, 100)
+SurfaceGui.Parent = Text
+
+local TextLabel = Instance.new("TextLabel")
+TextLabel.Size = UDim2.new(1, 0, 1, 0)
+TextLabel.BackgroundTransparency = 1
+TextLabel.Active = true
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.FontSize = Enum.FontSize.Size12
+TextLabel.TextStrokeTransparency = 0
+TextLabel.TextSize = 12
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.Text = "private island"
+TextLabel.TextWrap = true
+TextLabel.Font = Enum.Font.ArialBold
+TextLabel.TextWrapped = true
+TextLabel.TextStrokeColor3 = Color3.fromRGB(0, 3, 0)
+TextLabel.TextScaled = true
+TextLabel.Parent = SurfaceGui
+
+local Part7 = Instance.new("Part")
+Part7.Anchored = true
+Part7.Color = Color3.fromRGB(108, 88, 75)
+Part7.Material = Enum.Material.SmoothPlastic
+Part7.Size = Vector3.new(4.5054469108582, 2.4779961109161, 0.225272372365)
+Part7.CFrame = CFrame.new(-4407.3583984375, 1390.9630126953, 13852.606445313, -0.89847034215927, 0, 0.43904605507851, 0, 1, 0, -0.43904605507851, 0, -0.89847034215927)
+Part7.Parent = Part
+
+local Part8 = Instance.new("Part")
+Part8.Anchored = true
+Part8.BottomSurface = Enum.SurfaceType.Smooth
+Part8.TopSurface = Enum.SurfaceType.Smooth
+Part8.Color = Color3.fromRGB(17, 17, 17)
+Part8.Material = Enum.Material.SmoothPlastic
+Part8.Size = Vector3.new(46.278091430664, 0.0094184875488281, 23.967372894287)
+Part8.CFrame = CFrame.new(-4386.9887695313, 1397.8502197266, 13825.357421875, -1, 0, 0, 0, 0, 1, 0, 1, 0)
+Part8.Parent = Part
+
+local Decal = Instance.new("Decal")
+Decal.Face = Enum.NormalId.Top
+Decal.Texture = "http://www.roblox.com/asset/?id=1009172516"
+Decal.Parent = Part8
+
+local Text1 = Instance.new("Part")
+Text1.Name = "Text"
+Text1.Anchored = true
+Text1.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+Text1.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+Text1.Color = Color3.fromRGB(108, 88, 75)
+Text1.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+Text1.Material = Enum.Material.SmoothPlastic
+Text1.Size = Vector3.new(4.4716567993164, 2.4892597198486, 0.225272372365)
+Text1.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+Text1.CFrame = CFrame.new(-4413.1860351563, 1390.8895263672, 13850.010742188, -0.89847022294998, 0, 0.43904605507851, 0, 1, 0, -0.43904605507851, 0, -0.89847022294998)
+Text1.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+Text1.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+Text1.formFactor = Enum.FormFactor.Custom
+Text1.Parent = Part
+
+local SurfaceGui1 = Instance.new("SurfaceGui")
+SurfaceGui1.CanvasSize = Vector2.new(200, 100)
+SurfaceGui1.Parent = Text1
+
+local TextLabel1 = Instance.new("TextLabel")
+TextLabel1.Size = UDim2.new(1, 0, 1, 0)
+TextLabel1.BackgroundTransparency = 1
+TextLabel1.Active = true
+TextLabel1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel1.FontSize = Enum.FontSize.Size12
+TextLabel1.TextStrokeTransparency = 0
+TextLabel1.TextSize = 12
+TextLabel1.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel1.Text = "only script users can come here"
+TextLabel1.TextWrap = true
+TextLabel1.Font = Enum.Font.ArialBold
+TextLabel1.TextWrapped = true
+TextLabel1.TextStrokeColor3 = Color3.fromRGB(0, 3, 0)
+TextLabel1.TextScaled = true
+TextLabel1.Parent = SurfaceGui1
+
+local Part9 = Instance.new("Part")
+Part9.Anchored = true
+Part9.BottomSurface = Enum.SurfaceType.Smooth
+Part9.TopSurface = Enum.SurfaceType.Smooth
+Part9.Color = Color3.fromRGB(17, 17, 17)
+Part9.Material = Enum.Material.SmoothPlastic
+Part9.Size = Vector3.new(46.278091430664, 0.0094184875488281, 23.967372894287)
+Part9.CFrame = CFrame.new(-4377.2934570313, 1397.8502197266, 13942.700195313, 1, 0, 0, 0, 0, 1, 0, -1, 0)
+Part9.Parent = Part
+
+local Decal1 = Instance.new("Decal")
+Decal1.Face = Enum.NormalId.Top
+Decal1.Texture = "http://www.roblox.com/asset/?id=6164339976"
+Decal1.Parent = Part9
+
+local Part10 = Instance.new("Part")
+Part10.Anchored = true
+Part10.Color = Color3.fromRGB(108, 88, 75)
+Part10.Material = Enum.Material.SmoothPlastic
+Part10.Size = Vector3.new(4.5054469108582, 2.4779961109161, 0.225272372365)
+Part10.CFrame = CFrame.new(-4413.1020507813, 1390.9630126953, 13849.799804688, -0.89847034215927, 0, 0.43904605507851, 0, 1, 0, -0.43904605507851, 0, -0.89847034215927)
+Part10.Parent = Part
+
+local Part11 = Instance.new("Part")
+Part11.Anchored = true
+Part11.BottomSurface = Enum.SurfaceType.Smooth
+Part11.TopSurface = Enum.SurfaceType.Smooth
+Part11.Color = Color3.fromRGB(17, 17, 17)
+Part11.Material = Enum.Material.SmoothPlastic
+Part11.Size = Vector3.new(46.278091430664, 0.0094184875488281, 23.967372894287)
+Part11.CFrame = CFrame.new(-4274.8266601563, 1397.8502197266, 13825.357421875, -1, 0, 0, 0, 0, 1, 0, 1, 0)
+Part11.Parent = Part
+
+local Decal2 = Instance.new("Decal")
+Decal2.Face = Enum.NormalId.Top
+Decal2.Texture = "http://www.roblox.com/asset/?id=3831682438"
+Decal2.Parent = Part11
+
+local Part12 = Instance.new("Part")
+Part12.Anchored = true
+Part12.Color = Color3.fromRGB(108, 88, 75)
+Part12.Material = Enum.Material.SmoothPlastic
+Part12.Size = Vector3.new(0.45054474473, 5.4065370559692, 0.225272372365)
+Part12.CFrame = CFrame.new(-4413.0029296875, 1389.6448974609, 13849.59765625, -0.89847034215927, 0, 0.43904605507851, 0, 1, 0, -0.43904605507851, 0, -0.89847034215927)
+Part12.Parent = Part
+
+local PartTerrainJoint1 = Instance.new("ManualWeld")
+PartTerrainJoint1.Name = "Part Terrain Joint"
+PartTerrainJoint1.Parent = Part12
+
+local Text2 = Instance.new("Part")
+Text2.Name = "Text"
+Text2.Anchored = true
+Text2.BottomSurface = Enum.SurfaceType.SmoothNoOutlines
+Text2.TopSurface = Enum.SurfaceType.SmoothNoOutlines
+Text2.Color = Color3.fromRGB(108, 88, 75)
+Text2.RightSurface = Enum.SurfaceType.SmoothNoOutlines
+Text2.Material = Enum.Material.SmoothPlastic
+Text2.Size = Vector3.new(4.4716567993164, 2.4892597198486, 0.225272372365)
+Text2.BackSurface = Enum.SurfaceType.SmoothNoOutlines
+Text2.CFrame = CFrame.new(-4399.2407226563, 1390.96875, 13899.092773438, 0.56731247901917, 0, 0.82350313663483, 0, 1, 0, -0.82350313663483, 0, 0.56731247901917)
+Text2.LeftSurface = Enum.SurfaceType.SmoothNoOutlines
+Text2.FrontSurface = Enum.SurfaceType.SmoothNoOutlines
+Text2.formFactor = Enum.FormFactor.Custom
+Text2.Parent = Part
+
+local SurfaceGui2 = Instance.new("SurfaceGui")
+SurfaceGui2.CanvasSize = Vector2.new(200, 100)
+SurfaceGui2.Parent = Text2
+
+local TextLabel2 = Instance.new("TextLabel")
+TextLabel2.Size = UDim2.new(1, 0, 1, 0)
+TextLabel2.BackgroundTransparency = 1
+TextLabel2.Active = true
+TextLabel2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel2.FontSize = Enum.FontSize.Size12
+TextLabel2.TextStrokeTransparency = 0
+TextLabel2.TextSize = 12
+TextLabel2.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel2.Text = "radjah#9900 is hiden on the island find him"
+TextLabel2.TextWrap = true
+TextLabel2.Font = Enum.Font.ArialBold
+TextLabel2.TextWrapped = true
+TextLabel2.TextStrokeColor3 = Color3.fromRGB(0, 3, 0)
+TextLabel2.TextScaled = true
+TextLabel2.Parent = SurfaceGui2
+
+local Part13 = Instance.new("Part")
+Part13.Anchored = true
+Part13.Color = Color3.fromRGB(108, 88, 75)
+Part13.Material = Enum.Material.SmoothPlastic
+Part13.Size = Vector3.new(0.45054474473, 5.4065370559692, 0.225272372365)
+Part13.CFrame = CFrame.new(-4399.123046875, 1389.7241210938, 13899.15234375, 0.56731247901917, 0, 0.82350313663483, 0, 1, 0, -0.82350313663483, 0, 0.56731247901917)
+Part13.Parent = Part
+
+local PartTerrainJoint2 = Instance.new("ManualWeld")
+PartTerrainJoint2.Name = "Part Terrain Joint"
+PartTerrainJoint2.Parent = Part13
+
+local Part14 = Instance.new("Part")
+Part14.Anchored = true
+Part14.BottomSurface = Enum.SurfaceType.Smooth
+Part14.TopSurface = Enum.SurfaceType.Smooth
+Part14.Color = Color3.fromRGB(17, 17, 17)
+Part14.Material = Enum.Material.SmoothPlastic
+Part14.Size = Vector3.new(46.278091430664, 0.0094184875488281, 23.967372894287)
+Part14.CFrame = CFrame.new(-4332.5551757813, 1397.8502197266, 13825.357421875, -1, 0, 0, 0, 0, 1, 0, 1, 0)
+Part14.Parent = Part
+
+local Decal3 = Instance.new("Decal")
+Decal3.Face = Enum.NormalId.Top
+Decal3.Texture = "http://www.roblox.com/asset/?id=414818051"
+Decal3.Parent = Part14
+
+local Part15 = Instance.new("Part")
+Part15.Anchored = true
+Part15.BottomSurface = Enum.SurfaceType.Smooth
+Part15.TopSurface = Enum.SurfaceType.Smooth
+Part15.Color = Color3.fromRGB(17, 17, 17)
+Part15.Material = Enum.Material.SmoothPlastic
+Part15.Size = Vector3.new(46.278091430664, 0.0094184875488281, 23.967372894287)
+Part15.CFrame = CFrame.new(-4326.7680664063, 1397.8502197266, 13942.700195313, 1, 0, 0, 0, 0, 1, 0, -1, 0)
+Part15.Parent = Part
+
+local Decal4 = Instance.new("Decal")
+Decal4.Face = Enum.NormalId.Top
+Decal4.Texture = "http://www.roblox.com/asset/?id=696623699"
+Decal4.Parent = Part15
+
+local Part16 = Instance.new("Part")
+Part16.Anchored = true
+Part16.BottomSurface = Enum.SurfaceType.Smooth
+Part16.TopSurface = Enum.SurfaceType.Smooth
+Part16.Color = Color3.fromRGB(248, 248, 248)
+Part16.Material = Enum.Material.SmoothPlastic
+Part16.Size = Vector3.new(46.278091430664, 0.0094184875488281, 23.967372894287)
+Part16.CFrame = CFrame.new(-4275.5795898438, 1397.8502197266, 13942.700195313, 1, 0, 0, 0, 0, 1, 0, -1, 0)
+Part16.Parent = Part
+
+local Decal5 = Instance.new("Decal")
+Decal5.Face = Enum.NormalId.Top
+Decal5.Texture = "http://www.roblox.com/asset/?id=48708430"
+Decal5.Parent = Part16
+
+local Part17 = Instance.new("Part")
+Part17.Anchored = true
+Part17.TopSurface = Enum.SurfaceType.Smooth
+Part17.Transparency = 1
+Part17.Color = Color3.fromRGB(27, 42, 53)
+Part17.RightSurface = Enum.SurfaceType.Weld
+Part17.Size = Vector3.new(1, 0.40000173449516, 1)
+Part17.CFrame = CFrame.new(-4371.0517578125, 1393.2208251953, 13886.243164063, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Part17.Parent = Part
+
+local Mesh = Instance.new("CylinderMesh")
+Mesh.Offset = Vector3.new(0, -0.10000000149012, 0)
+Mesh.Scale = Vector3.new(1, 1, 0.5)
+Mesh.Parent = Part17
+
+local Fire = Instance.new("Fire")
+Fire.Color = Color3.fromRGB(255, 131, 0)
+Fire.SecondaryColor = Color3.fromRGB(255, 0, 0)
+Fire.Size = 2
+Fire.Parent = Part17
+
+local Smoke = Instance.new("Smoke")
+Smoke.Opacity = 0.1
+Smoke.Color = Color3.fromRGB(0, 0, 0)
+Smoke.RiseVelocity = 3
+Smoke.Parent = Part17
+
+local Part18 = Instance.new("Part")
+Part18.Anchored = true
+Part18.TopSurface = Enum.SurfaceType.Smooth
+Part18.Color = Color3.fromRGB(204, 142, 105)
+Part18.RightSurface = Enum.SurfaceType.Weld
+Part18.Size = Vector3.new(1, 0.40000173449516, 1)
+Part18.CFrame = CFrame.new(-4371.0517578125, 1392.6208496094, 13877.243164063, -1, 0, 0, 0, 1, -0, 0, 0, -1)
+Part18.Parent = Part
+
+local Mesh1 = Instance.new("BlockMesh")
+Mesh1.Offset = Vector3.new(0, -0.10000000149012, 0.28000000119209)
+Mesh1.Scale = Vector3.new(0.10000000149012, 2.5, 0.10000000149012)
+Mesh1.Parent = Part18
+
+local WOMPWOMPINFECTED = Instance.new("Weld")
+WOMPWOMPINFECTED.Name = "WOMP WOMP INFECTED"
+WOMPWOMPINFECTED.Parent = Part
+
+local Brick = Instance.new("Part")
+Brick.Name = "Brick"
+Brick.Anchored = true
+Brick.BottomSurface = Enum.SurfaceType.Smooth
+Brick.TopSurface = Enum.SurfaceType.Smooth
+Brick.Color = Color3.fromRGB(196, 40, 28)
+Brick.Size = Vector3.new(3, 0.40000000596046, 3)
+Brick.CFrame = CFrame.new(-4371.01171875, 1391.1207275391, 13881.743164063, 0, 1, 0, 1, -0, 0, 0, -0, -1)
+Brick.Parent = Part
+
+local Mesh2 = Instance.new("CylinderMesh")
+Mesh2.Scale = Vector3.new(1, 1.2000000476837, 1)
+Mesh2.Parent = Brick
+
+local Fire1 = Instance.new("Fire")
+Fire1.Enabled = false
+Fire1.Heat = 25
+Fire1.Color = Color3.fromRGB(255, 198, 0)
+Fire1.SecondaryColor = Color3.fromRGB(255, 0, 0)
+Fire1.Size = 30
+Fire1.Parent = Brick
+
+local Script = Instance.new("Script")
+Script.Parent = Fire1
+
+local Brick1 = Instance.new("Part")
+Brick1.Name = "Brick"
+Brick1.Anchored = true
+Brick1.BottomSurface = Enum.SurfaceType.Smooth
+Brick1.TopSurface = Enum.SurfaceType.Smooth
+Brick1.Color = Color3.fromRGB(196, 40, 28)
+Brick1.Size = Vector3.new(3, 0.40000000596046, 3)
+Brick1.CFrame = CFrame.new(-4371.0517578125, 1389.9207763672, 13881.743164063, 0, -1, 0, -1, 0, -0, -0, 0, -1)
+Brick1.Parent = Part
+
+local Fire2 = Instance.new("Fire")
+Fire2.Enabled = false
+Fire2.Heat = 25
+Fire2.Color = Color3.fromRGB(255, 198, 0)
+Fire2.SecondaryColor = Color3.fromRGB(255, 0, 0)
+Fire2.Size = 30
+Fire2.Parent = Brick1
+
+local Script1 = Instance.new("Script")
+Script1.Parent = Fire2
+
+local Brick2 = Instance.new("Part")
+Brick2.Name = "Brick"
+Brick2.Anchored = true
+Brick2.BottomSurface = Enum.SurfaceType.Smooth
+Brick2.TopSurface = Enum.SurfaceType.Smooth
+Brick2.Color = Color3.fromRGB(245, 205, 48)
+Brick2.Size = Vector3.new(4, 1, 4)
+Brick2.CFrame = CFrame.new(-4370.5517578125, 1390.9207763672, 13881.743164063, 0, 1, 0, 1, -0, 0, 0, -0, -1)
+Brick2.Parent = Part
+
+local Mesh3 = Instance.new("CylinderMesh")
+Mesh3.Scale = Vector3.new(1, 1.2000000476837, 1)
+Mesh3.Parent = Brick2
+
+local Fire3 = Instance.new("Fire")
+Fire3.Enabled = false
+Fire3.Heat = 25
+Fire3.Color = Color3.fromRGB(255, 198, 0)
+Fire3.SecondaryColor = Color3.fromRGB(255, 0, 0)
+Fire3.Size = 30
+Fire3.Parent = Brick2
+
+local Script2 = Instance.new("Script")
+Script2.Parent = Fire3
+
+local Brick3 = Instance.new("Part")
+Brick3.Name = "Brick"
+Brick3.Anchored = true
+Brick3.BottomSurface = Enum.SurfaceType.Smooth
+Brick3.TopSurface = Enum.SurfaceType.Smooth
+Brick3.Color = Color3.fromRGB(245, 205, 48)
+Brick3.Size = Vector3.new(1, 4, 4)
+Brick3.CFrame = CFrame.new(-4370.5517578125, 1389.0208740234, 13881.743164063, -1, 0, 0, 0, 1, 0, 0, 0, -1)
+Brick3.Parent = Part
+
+local Mesh4 = Instance.new("SpecialMesh")
+Mesh4.Scale = Vector3.new(1.2000000476837, 1, 1)
+Mesh4.MeshType = Enum.MeshType.Brick
+Mesh4.Parent = Brick3
+
+local Brick4 = Instance.new("Part")
+Brick4.Name = "Brick"
+Brick4.Anchored = true
+Brick4.BottomSurface = Enum.SurfaceType.Smooth
+Brick4.TopSurface = Enum.SurfaceType.Smooth
+Brick4.Color = Color3.fromRGB(245, 205, 48)
+Brick4.Size = Vector3.new(1, 1, 2)
+Brick4.CFrame = CFrame.new(-4372.0517578125, 1389.4207763672, 13883.243164063, 0, 0, 1, 0, 1, -0, -1, 0, -0)
+Brick4.Parent = Part
+
+local Fire4 = Instance.new("Fire")
+Fire4.Enabled = false
+Fire4.Heat = 25
+Fire4.Color = Color3.fromRGB(255, 198, 0)
+Fire4.SecondaryColor = Color3.fromRGB(255, 0, 0)
+Fire4.Size = 30
+Fire4.Parent = Brick4
+
+local Script3 = Instance.new("Script")
+Script3.Parent = Fire4
+
+local Brick5 = Instance.new("Part")
+Brick5.Name = "Brick"
+Brick5.Anchored = true
+Brick5.BottomSurface = Enum.SurfaceType.Smooth
+Brick5.TopSurface = Enum.SurfaceType.Smooth
+Brick5.Color = Color3.fromRGB(245, 205, 48)
+Brick5.Size = Vector3.new(1, 1, 2)
+Brick5.CFrame = CFrame.new(-4372.0517578125, 1389.4207763672, 13880.2421875, 0, 0, 1, 0, 1, -0, -1, 0, -0)
+Brick5.Parent = Part
+
+local Brick6 = Instance.new("Part")
+Brick6.Name = "Brick"
+Brick6.Anchored = true
+Brick6.BottomSurface = Enum.SurfaceType.Smooth
+Brick6.TopSurface = Enum.SurfaceType.Smooth
+Brick6.Color = Color3.fromRGB(245, 205, 48)
+Brick6.Size = Vector3.new(1, 1, 1)
+Brick6.CFrame = CFrame.new(-4373.0517578125, 1389.4207763672, 13880.243164063, 0, 0, 1, 1, 0, -0, 0, 1, -0)
+Brick6.Parent = Part
+
+local Mesh5 = Instance.new("CylinderMesh")
+Mesh5.Parent = Brick6
+
+local Fire5 = Instance.new("Fire")
+Fire5.Enabled = false
+Fire5.Heat = 25
+Fire5.Color = Color3.fromRGB(255, 157, 0)
+Fire5.SecondaryColor = Color3.fromRGB(255, 0, 0)
+Fire5.Size = 30
+Fire5.Parent = Brick6
+
+local Spread = Instance.new("Script")
+Spread.Name = "Spread"
+Spread.Parent = Fire5
+
+local Brick7 = Instance.new("Part")
+Brick7.Name = "Brick"
+Brick7.Anchored = true
+Brick7.BottomSurface = Enum.SurfaceType.Smooth
+Brick7.TopSurface = Enum.SurfaceType.Smooth
+Brick7.Color = Color3.fromRGB(245, 205, 48)
+Brick7.Size = Vector3.new(1, 1, 1)
+Brick7.CFrame = CFrame.new(-4373.0517578125, 1389.4207763672, 13883.243164063, 0, 0, 1, 1, 0, -0, 0, 1, -0)
+Brick7.Parent = Part
+
+local Mesh6 = Instance.new("CylinderMesh")
+Mesh6.Parent = Brick7
+
+local Fire6 = Instance.new("Fire")
+Fire6.Enabled = false
+Fire6.Heat = 25
+Fire6.Color = Color3.fromRGB(255, 198, 0)
+Fire6.SecondaryColor = Color3.fromRGB(255, 0, 0)
+Fire6.Size = 30
+Fire6.Parent = Brick7
+
+local Script4 = Instance.new("Script")
+Script4.Parent = Fire6
+
+local Brick8 = Instance.new("Part")
+Brick8.Name = "Brick"
+Brick8.Anchored = true
+Brick8.BottomSurface = Enum.SurfaceType.Smooth
+Brick8.TopSurface = Enum.SurfaceType.Smooth
+Brick8.Color = Color3.fromRGB(245, 205, 48)
+Brick8.Size = Vector3.new(1, 2.4000000953674, 3)
+Brick8.CFrame = CFrame.new(-4372.0517578125, 1388.2208251953, 13883.243164063, 0, 0, 1, -0, 1, -0, -1, 0, -0)
+Brick8.Parent = Part
+
+local Fire7 = Instance.new("Fire")
+Fire7.Enabled = false
+Fire7.Heat = 25
+Fire7.Color = Color3.fromRGB(255, 198, 0)
+Fire7.SecondaryColor = Color3.fromRGB(255, 0, 0)
+Fire7.Size = 30
+Fire7.Parent = Brick8
+
+local Script5 = Instance.new("Script")
+Script5.Parent = Fire7
+
+local Part19 = Instance.new("Part")
+Part19.Anchored = true
+Part19.BottomSurface = Enum.SurfaceType.Smooth
+Part19.TopSurface = Enum.SurfaceType.Smooth
+Part19.Color = Color3.fromRGB(245, 205, 48)
+Part19.Size = Vector3.new(4, 1.2000000476837, 3)
+Part19.CFrame = CFrame.new(-4372.0517578125, 1387.6208496094, 13881.743164063, 0, 0, 1, -0, 1, -0, -1, 0, -0)
+Part19.Parent = Part
+
+local Fire8 = Instance.new("Fire")
+Fire8.Enabled = false
+Fire8.Heat = 25
+Fire8.Color = Color3.fromRGB(255, 198, 0)
+Fire8.SecondaryColor = Color3.fromRGB(255, 0, 0)
+Fire8.Size = 30
+Fire8.Parent = Part19
+
+local Script6 = Instance.new("Script")
+Script6.Parent = Fire8
+
+local Weld = Instance.new("Weld")
+Weld.C1 = CFrame.new(0, -0.20000088214874, 0, -1, 0, -0, 0, 0, 1, -0, 1, -0)
+Weld.C0 = CFrame.new(0, 0.60000002384186, 0, -1, -0, -0, 0, 0, 1, 0, 1, 0)
+Weld.Parent = Part19
+
+local Part20 = Instance.new("Part")
+Part20.Anchored = true
+Part20.BottomSurface = Enum.SurfaceType.Smooth
+Part20.TopSurface = Enum.SurfaceType.Smooth
+Part20.Color = Color3.fromRGB(245, 205, 48)
+Part20.Size = Vector3.new(1, 2.4000000953674, 3)
+Part20.CFrame = CFrame.new(-4372.0517578125, 1388.2208251953, 13880.243164063, 0, 0, 1, -0, 1, -0, -1, 0, -0)
+Part20.Parent = Part
+
+local Fire9 = Instance.new("Fire")
+Fire9.Enabled = false
+Fire9.Heat = 25
+Fire9.Color = Color3.fromRGB(255, 157, 0)
+Fire9.SecondaryColor = Color3.fromRGB(255, 0, 0)
+Fire9.Size = 30
+Fire9.Parent = Part20
+
+local Spread1 = Instance.new("Script")
+Spread1.Name = "Spread"
+Spread1.Parent = Fire9
+
+local Part21 = Instance.new("Part")
+Part21.Anchored = true
+Part21.TopSurface = Enum.SurfaceType.Smooth
+Part21.Color = Color3.fromRGB(204, 142, 105)
+Part21.RightSurface = Enum.SurfaceType.Weld
+Part21.Reflectance = 0.01
+Part21.Size = Vector3.new(1, 0.40000000596046, 1)
+Part21.CFrame = CFrame.new(-4371.0517578125, 1387.2208251953, 13886.243164063, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Part21.Parent = Part
+
+local Mesh7 = Instance.new("CylinderMesh")
+Mesh7.Scale = Vector3.new(1, 0.5, 0.41999998688698)
+Mesh7.Parent = Part21
+
+local Part22 = Instance.new("Part")
+Part22.Anchored = true
+Part22.TopSurface = Enum.SurfaceType.Smooth
+Part22.Color = Color3.fromRGB(204, 142, 105)
+Part22.RightSurface = Enum.SurfaceType.Weld
+Part22.Reflectance = 0.01
+Part22.Size = Vector3.new(1, 0.40000000596046, 1)
+Part22.CFrame = CFrame.new(-4371.0517578125, 1387.2208251953, 13877.243164063, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Part22.Parent = Part
+
+local Mesh8 = Instance.new("CylinderMesh")
+Mesh8.Scale = Vector3.new(1, 0.5, 0.41999998688698)
+Mesh8.Parent = Part22
+
+local Seat = Instance.new("Seat")
+Seat.Anchored = true
+Seat.BottomSurface = Enum.SurfaceType.Weld
+Seat.TopSurface = Enum.SurfaceType.Smooth
+Seat.Color = Color3.fromRGB(196, 40, 28)
+Seat.Size = Vector3.new(2, 0.40000000596046, 3)
+Seat.CFrame = CFrame.new(-4372.0517578125, 1388.4208984375, 13881.743164063, 0, 0, 1, 0, 1, 0, -1, 0, 0)
+Seat.Parent = Part
+
+local Fire10 = Instance.new("Fire")
+Fire10.Enabled = false
+Fire10.Heat = 25
+Fire10.Color = Color3.fromRGB(255, 198, 0)
+Fire10.SecondaryColor = Color3.fromRGB(255, 0, 0)
+Fire10.Size = 30
+Fire10.Parent = Seat
+
+local Script7 = Instance.new("Script")
+Script7.Parent = Fire10
+
+local Part23 = Instance.new("Part")
+Part23.Anchored = true
+Part23.TopSurface = Enum.SurfaceType.Smooth
+Part23.Color = Color3.fromRGB(204, 142, 105)
+Part23.RightSurface = Enum.SurfaceType.Weld
+Part23.Reflectance = 0.01
+Part23.Size = Vector3.new(1, 0.40000000596046, 1)
+Part23.CFrame = CFrame.new(-4371.0517578125, 1388.8208007813, 13886.243164063, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Part23.Parent = Part
+
+local Mesh9 = Instance.new("CylinderMesh")
+Mesh9.Scale = Vector3.new(1, 0.5, 0.41999998688698)
+Mesh9.Parent = Part23
+
+local Part24 = Instance.new("Part")
+Part24.Anchored = true
+Part24.TopSurface = Enum.SurfaceType.Smooth
+Part24.Color = Color3.fromRGB(204, 142, 105)
+Part24.RightSurface = Enum.SurfaceType.Weld
+Part24.Reflectance = 0.01
+Part24.Size = Vector3.new(1, 0.40000000596046, 1)
+Part24.CFrame = CFrame.new(-4371.0517578125, 1388.0208740234, 13886.243164063, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Part24.Parent = Part
+
+local Mesh10 = Instance.new("CylinderMesh")
+Mesh10.Scale = Vector3.new(1, 0.5, 0.41999998688698)
+Mesh10.Parent = Part24
+
+local Part25 = Instance.new("Part")
+Part25.Anchored = true
+Part25.TopSurface = Enum.SurfaceType.Smooth
+Part25.Color = Color3.fromRGB(204, 142, 105)
+Part25.RightSurface = Enum.SurfaceType.Weld
+Part25.Reflectance = 0.01
+Part25.Size = Vector3.new(1, 0.40000000596046, 1)
+Part25.CFrame = CFrame.new(-4371.0517578125, 1388.0208740234, 13877.243164063, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Part25.Parent = Part
+
+local Mesh11 = Instance.new("CylinderMesh")
+Mesh11.Scale = Vector3.new(1, 0.5, 0.41999998688698)
+Mesh11.Parent = Part25
+
+local Part26 = Instance.new("Part")
+Part26.Anchored = true
+Part26.TopSurface = Enum.SurfaceType.Smooth
+Part26.Color = Color3.fromRGB(204, 142, 105)
+Part26.RightSurface = Enum.SurfaceType.Weld
+Part26.Reflectance = 0.01
+Part26.Size = Vector3.new(1, 0.40000000596046, 1)
+Part26.CFrame = CFrame.new(-4371.0517578125, 1388.8208007813, 13877.243164063, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Part26.Parent = Part
+
+local Mesh12 = Instance.new("CylinderMesh")
+Mesh12.Scale = Vector3.new(1, 0.5, 0.41999998688698)
+Mesh12.Parent = Part26
+
+local Part27 = Instance.new("Part")
+Part27.Anchored = true
+Part27.TopSurface = Enum.SurfaceType.Smooth
+Part27.Color = Color3.fromRGB(204, 142, 105)
+Part27.RightSurface = Enum.SurfaceType.Weld
+Part27.Size = Vector3.new(1, 0.40000173449516, 1)
+Part27.CFrame = CFrame.new(-4371.0517578125, 1391.2208251953, 13886.243164063, 0, 0, -1, -0, -1, 0, -1, -0, 0)
+Part27.Parent = Part
+
+local Mesh13 = Instance.new("SpecialMesh")
+Mesh13.Scale = Vector3.new(0.5, 1, 0.5)
+Mesh13.MeshId = "http://www.roblox.com/asset/?id=1778999"
+Mesh13.MeshType = Enum.MeshType.FileMesh
+Mesh13.Parent = Part27
+
+local Part28 = Instance.new("Part")
+Part28.Anchored = true
+Part28.TopSurface = Enum.SurfaceType.Smooth
+Part28.Color = Color3.fromRGB(204, 142, 105)
+Part28.RightSurface = Enum.SurfaceType.Weld
+Part28.Reflectance = 0.01
+Part28.Size = Vector3.new(1, 0.40000000596046, 1)
+Part28.CFrame = CFrame.new(-4371.0517578125, 1391.2208251953, 13886.243164063, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Part28.Parent = Part
+
+local Mesh14 = Instance.new("CylinderMesh")
+Mesh14.Scale = Vector3.new(1, 0.5, 0.41999998688698)
+Mesh14.Parent = Part28
+
+local Part29 = Instance.new("Part")
+Part29.Anchored = true
+Part29.TopSurface = Enum.SurfaceType.Smooth
+Part29.Color = Color3.fromRGB(204, 142, 105)
+Part29.RightSurface = Enum.SurfaceType.Weld
+Part29.Reflectance = 0.01
+Part29.Size = Vector3.new(1, 0.40000000596046, 1)
+Part29.CFrame = CFrame.new(-4371.0517578125, 1390.4207763672, 13886.243164063, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Part29.Parent = Part
+
+local Mesh15 = Instance.new("CylinderMesh")
+Mesh15.Scale = Vector3.new(1, 0.5, 0.41999998688698)
+Mesh15.Parent = Part29
+
+local Part30 = Instance.new("Part")
+Part30.Anchored = true
+Part30.TopSurface = Enum.SurfaceType.Smooth
+Part30.Color = Color3.fromRGB(204, 142, 105)
+Part30.RightSurface = Enum.SurfaceType.Weld
+Part30.Size = Vector3.new(1, 4.4000010490417, 1)
+Part30.CFrame = CFrame.new(-4371.0517578125, 1389.2208251953, 13886.243164063, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Part30.Parent = Part
+
+local Mesh16 = Instance.new("CylinderMesh")
+Mesh16.Scale = Vector3.new(1, 1, 0.40000000596046)
+Mesh16.Parent = Part30
+
+local Part31 = Instance.new("Part")
+Part31.Anchored = true
+Part31.TopSurface = Enum.SurfaceType.Smooth
+Part31.Color = Color3.fromRGB(204, 142, 105)
+Part31.RightSurface = Enum.SurfaceType.Weld
+Part31.Reflectance = 0.01
+Part31.Size = Vector3.new(1, 0.40000000596046, 1)
+Part31.CFrame = CFrame.new(-4371.0517578125, 1389.6208496094, 13886.243164063, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Part31.Parent = Part
+
+local Mesh17 = Instance.new("CylinderMesh")
+Mesh17.Scale = Vector3.new(1, 0.5, 0.41999998688698)
+Mesh17.Parent = Part31
+
+local Part32 = Instance.new("Part")
+Part32.Anchored = true
+Part32.TopSurface = Enum.SurfaceType.Smooth
+Part32.Color = Color3.fromRGB(204, 142, 105)
+Part32.RightSurface = Enum.SurfaceType.Weld
+Part32.Size = Vector3.new(1, 0.40000173449516, 1)
+Part32.CFrame = CFrame.new(-4371.0517578125, 1391.2208251953, 13877.243164063, 0, 0, -1, -0, -1, 0, -1, -0, 0)
+Part32.Parent = Part
+
+local Mesh18 = Instance.new("SpecialMesh")
+Mesh18.Scale = Vector3.new(0.5, 1, 0.5)
+Mesh18.MeshId = "http://www.roblox.com/asset/?id=1778999"
+Mesh18.MeshType = Enum.MeshType.FileMesh
+Mesh18.Parent = Part32
+
+local Part33 = Instance.new("Part")
+Part33.Anchored = true
+Part33.TopSurface = Enum.SurfaceType.Smooth
+Part33.Color = Color3.fromRGB(204, 142, 105)
+Part33.RightSurface = Enum.SurfaceType.Weld
+Part33.Reflectance = 0.01
+Part33.Size = Vector3.new(1, 0.40000000596046, 1)
+Part33.CFrame = CFrame.new(-4371.0517578125, 1390.4207763672, 13877.243164063, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Part33.Parent = Part
+
+local Mesh19 = Instance.new("CylinderMesh")
+Mesh19.Scale = Vector3.new(1, 0.5, 0.41999998688698)
+Mesh19.Parent = Part33
+
+local Part34 = Instance.new("Part")
+Part34.Anchored = true
+Part34.TopSurface = Enum.SurfaceType.Smooth
+Part34.Color = Color3.fromRGB(204, 142, 105)
+Part34.RightSurface = Enum.SurfaceType.Weld
+Part34.Size = Vector3.new(1, 4.4000010490417, 1)
+Part34.CFrame = CFrame.new(-4371.0517578125, 1389.2208251953, 13877.243164063, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Part34.Parent = Part
+
+local Mesh20 = Instance.new("CylinderMesh")
+Mesh20.Scale = Vector3.new(1, 1, 0.40000000596046)
+Mesh20.Parent = Part34
+
+local Part35 = Instance.new("Part")
+Part35.Anchored = true
+Part35.TopSurface = Enum.SurfaceType.Smooth
+Part35.Color = Color3.fromRGB(204, 142, 105)
+Part35.RightSurface = Enum.SurfaceType.Weld
+Part35.Reflectance = 0.01
+Part35.Size = Vector3.new(1, 0.40000000596046, 1)
+Part35.CFrame = CFrame.new(-4371.0517578125, 1389.6208496094, 13877.243164063, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Part35.Parent = Part
+
+local Mesh21 = Instance.new("CylinderMesh")
+Mesh21.Scale = Vector3.new(1, 0.5, 0.41999998688698)
+Mesh21.Parent = Part35
+
+local Part36 = Instance.new("Part")
+Part36.Anchored = true
+Part36.TopSurface = Enum.SurfaceType.Smooth
+Part36.Color = Color3.fromRGB(204, 142, 105)
+Part36.RightSurface = Enum.SurfaceType.Weld
+Part36.Size = Vector3.new(1, 0.40000173449516, 1)
+Part36.CFrame = CFrame.new(-4371.0517578125, 1392.4207763672, 13886.243164063, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Part36.Parent = Part
+
+local Mesh22 = Instance.new("CylinderMesh")
+Mesh22.Scale = Vector3.new(1, 1.3999999761581, 0.60000002384186)
+Mesh22.Parent = Part36
+
+local Part37 = Instance.new("Part")
+Part37.Anchored = true
+Part37.TopSurface = Enum.SurfaceType.Smooth
+Part37.Color = Color3.fromRGB(27, 42, 53)
+Part37.RightSurface = Enum.SurfaceType.Weld
+Part37.Size = Vector3.new(1, 0.40000173449516, 1)
+Part37.CFrame = CFrame.new(-4371.0517578125, 1392.0208740234, 13886.243164063, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Part37.Parent = Part
+
+local Mesh23 = Instance.new("CylinderMesh")
+Mesh23.Scale = Vector3.new(1, 1, 0.5)
+Mesh23.Parent = Part37
+
+local Part38 = Instance.new("Part")
+Part38.Anchored = true
+Part38.TopSurface = Enum.SurfaceType.Smooth
+Part38.Color = Color3.fromRGB(27, 42, 53)
+Part38.RightSurface = Enum.SurfaceType.Weld
+Part38.Size = Vector3.new(1, 0.40000173449516, 1)
+Part38.CFrame = CFrame.new(-4371.0517578125, 1392.0208740234, 13877.243164063, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Part38.Parent = Part
+
+local Mesh24 = Instance.new("CylinderMesh")
+Mesh24.Scale = Vector3.new(1, 1, 0.5)
+Mesh24.Parent = Part38
+
+local Part39 = Instance.new("Part")
+Part39.Anchored = true
+Part39.TopSurface = Enum.SurfaceType.Smooth
+Part39.Color = Color3.fromRGB(204, 142, 105)
+Part39.RightSurface = Enum.SurfaceType.Weld
+Part39.Size = Vector3.new(1, 0.40000173449516, 1)
+Part39.CFrame = CFrame.new(-4371.0517578125, 1392.4207763672, 13877.243164063, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Part39.Parent = Part
+
+local Mesh25 = Instance.new("CylinderMesh")
+Mesh25.Scale = Vector3.new(1, 1.3999999761581, 0.60000002384186)
+Mesh25.Parent = Part39
+
+local Part40 = Instance.new("Part")
+Part40.Anchored = true
+Part40.TopSurface = Enum.SurfaceType.Smooth
+Part40.Color = Color3.fromRGB(204, 142, 105)
+Part40.RightSurface = Enum.SurfaceType.Weld
+Part40.Size = Vector3.new(1, 0.40000173449516, 1)
+Part40.CFrame = CFrame.new(-4371.0517578125, 1392.6208496094, 13877.243164063, 0.70710676908493, 0, -0.70710676908493, 0, 1, 0, 0.70710676908493, 0, 0.70710676908493)
+Part40.Parent = Part
+
+local Mesh26 = Instance.new("BlockMesh")
+Mesh26.Offset = Vector3.new(0, -0.10000000149012, 0.28000000119209)
+Mesh26.Scale = Vector3.new(0.10000000149012, 2.5, 0.10000000149012)
+Mesh26.Parent = Part40
+
+local Part41 = Instance.new("Part")
+Part41.Anchored = true
+Part41.TopSurface = Enum.SurfaceType.Smooth
+Part41.Color = Color3.fromRGB(204, 142, 105)
+Part41.RightSurface = Enum.SurfaceType.Weld
+Part41.Size = Vector3.new(1, 0.40000173449516, 1)
+Part41.CFrame = CFrame.new(-4371.0517578125, 1392.6208496094, 13877.243164063, -0.70710676908493, 0, 0.70710676908493, 0, 1, 0, -0.70710676908493, 0, -0.70710676908493)
+Part41.Parent = Part
+
+local Mesh27 = Instance.new("BlockMesh")
+Mesh27.Offset = Vector3.new(0, -0.10000000149012, 0.28000000119209)
+Mesh27.Scale = Vector3.new(0.10000000149012, 2.5, 0.10000000149012)
+Mesh27.Parent = Part41
+
+local Part42 = Instance.new("Part")
+Part42.Anchored = true
+Part42.TopSurface = Enum.SurfaceType.Smooth
+Part42.Color = Color3.fromRGB(204, 142, 105)
+Part42.RightSurface = Enum.SurfaceType.Weld
+Part42.Size = Vector3.new(1, 0.40000173449516, 1)
+Part42.CFrame = CFrame.new(-4371.0517578125, 1392.6208496094, 13877.243164063)
+Part42.Parent = Part
+
+local Mesh28 = Instance.new("BlockMesh")
+Mesh28.Offset = Vector3.new(0, -0.10000000149012, 0.28000000119209)
+Mesh28.Scale = Vector3.new(0.10000000149012, 2.5, 0.10000000149012)
+Mesh28.Parent = Part42
+
+local Part43 = Instance.new("Part")
+Part43.Anchored = true
+Part43.TopSurface = Enum.SurfaceType.Smooth
+Part43.Color = Color3.fromRGB(204, 142, 105)
+Part43.RightSurface = Enum.SurfaceType.Weld
+Part43.Size = Vector3.new(1, 0.40000173449516, 1)
+Part43.CFrame = CFrame.new(-4371.0517578125, 1392.6208496094, 13877.243164063, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Part43.Parent = Part
+
+local Mesh29 = Instance.new("BlockMesh")
+Mesh29.Offset = Vector3.new(0, -0.10000000149012, 0.28000000119209)
+Mesh29.Scale = Vector3.new(0.10000000149012, 2.5, 0.10000000149012)
+Mesh29.Parent = Part43
+
+local Part44 = Instance.new("Part")
+Part44.Anchored = true
+Part44.TopSurface = Enum.SurfaceType.Smooth
+Part44.Transparency = 1
+Part44.Color = Color3.fromRGB(27, 42, 53)
+Part44.RightSurface = Enum.SurfaceType.Weld
+Part44.Size = Vector3.new(1, 0.40000173449516, 1)
+Part44.CFrame = CFrame.new(-4371.0517578125, 1393.2208251953, 13877.243164063, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Part44.Parent = Part
+
+local Mesh30 = Instance.new("CylinderMesh")
+Mesh30.Offset = Vector3.new(0, -0.10000000149012, 0)
+Mesh30.Scale = Vector3.new(1, 1, 0.5)
+Mesh30.Parent = Part44
+
+local Fire11 = Instance.new("Fire")
+Fire11.Color = Color3.fromRGB(255, 131, 0)
+Fire11.SecondaryColor = Color3.fromRGB(255, 0, 0)
+Fire11.Size = 2
+Fire11.Parent = Part44
+
+local Smoke1 = Instance.new("Smoke")
+Smoke1.Opacity = 0.1
+Smoke1.Color = Color3.fromRGB(0, 0, 0)
+Smoke1.RiseVelocity = 3
+Smoke1.Parent = Part44
+
+local Part45 = Instance.new("Part")
+Part45.Anchored = true
+Part45.TopSurface = Enum.SurfaceType.Smooth
+Part45.Color = Color3.fromRGB(204, 142, 105)
+Part45.RightSurface = Enum.SurfaceType.Weld
+Part45.Size = Vector3.new(1, 0.40000173449516, 1)
+Part45.CFrame = CFrame.new(-4371.0517578125, 1392.6208496094, 13877.243164063, -0.70710670948029, 0, -0.70710670948029, 0, 1, 0, 0.70710670948029, 0, -0.70710670948029)
+Part45.Parent = Part
+
+local Mesh31 = Instance.new("BlockMesh")
+Mesh31.Offset = Vector3.new(0, -0.10000000149012, 0.28000000119209)
+Mesh31.Scale = Vector3.new(0.10000000149012, 2.5, 0.10000000149012)
+Mesh31.Parent = Part45
+
+local Part46 = Instance.new("Part")
+Part46.Anchored = true
+Part46.TopSurface = Enum.SurfaceType.Smooth
+Part46.Color = Color3.fromRGB(204, 142, 105)
+Part46.RightSurface = Enum.SurfaceType.Weld
+Part46.Size = Vector3.new(1, 0.40000173449516, 1)
+Part46.CFrame = CFrame.new(-4371.0517578125, 1392.6208496094, 13877.243164063, 0, 0, 1, -0, 1, -0, -1, 0, -0)
+Part46.Parent = Part
+
+local Mesh32 = Instance.new("BlockMesh")
+Mesh32.Offset = Vector3.new(0, -0.10000000149012, 0.28000000119209)
+Mesh32.Scale = Vector3.new(0.10000000149012, 2.5, 0.10000000149012)
+Mesh32.Parent = Part46
+
+local Part47 = Instance.new("Part")
+Part47.Anchored = true
+Part47.TopSurface = Enum.SurfaceType.Smooth
+Part47.Color = Color3.fromRGB(204, 142, 105)
+Part47.RightSurface = Enum.SurfaceType.Weld
+Part47.Size = Vector3.new(1, 0.40000173449516, 1)
+Part47.CFrame = CFrame.new(-4371.0517578125, 1392.6208496094, 13877.243164063, 0.70710676908493, 0, 0.70710676908493, 0, 1, 0, -0.70710676908493, 0, 0.70710676908493)
+Part47.Parent = Part
+
+local Mesh33 = Instance.new("BlockMesh")
+Mesh33.Offset = Vector3.new(0, -0.10000000149012, 0.28000000119209)
+Mesh33.Scale = Vector3.new(0.10000000149012, 2.5, 0.10000000149012)
+Mesh33.Parent = Part47
+
+local Part48 = Instance.new("Part")
+Part48.Anchored = true
+Part48.TopSurface = Enum.SurfaceType.Smooth
+Part48.Color = Color3.fromRGB(27, 42, 53)
+Part48.RightSurface = Enum.SurfaceType.Weld
+Part48.Size = Vector3.new(1, 0.40000173449516, 1)
+Part48.CFrame = CFrame.new(-4371.0517578125, 1392.8208007813, 13877.243164063, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Part48.Parent = Part
+
+local Mesh34 = Instance.new("CylinderMesh")
+Mesh34.Offset = Vector3.new(0, -0.10000000149012, 0)
+Mesh34.Scale = Vector3.new(1, 1, 0.5)
+Mesh34.Parent = Part48
+
+local Part49 = Instance.new("Part")
+Part49.Anchored = true
+Part49.TopSurface = Enum.SurfaceType.Smooth
+Part49.Color = Color3.fromRGB(27, 42, 53)
+Part49.RightSurface = Enum.SurfaceType.Weld
+Part49.Size = Vector3.new(1, 0.40000173449516, 1)
+Part49.CFrame = CFrame.new(-4371.0517578125, 1392.8208007813, 13886.243164063, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Part49.Parent = Part
+
+local Mesh35 = Instance.new("CylinderMesh")
+Mesh35.Offset = Vector3.new(0, -0.10000000149012, 0)
+Mesh35.Scale = Vector3.new(1, 1, 0.5)
+Mesh35.Parent = Part49
+
+local Part50 = Instance.new("Part")
+Part50.Anchored = true
+Part50.TopSurface = Enum.SurfaceType.Smooth
+Part50.Color = Color3.fromRGB(204, 142, 105)
+Part50.RightSurface = Enum.SurfaceType.Weld
+Part50.Size = Vector3.new(1, 0.40000173449516, 1)
+Part50.CFrame = CFrame.new(-4371.0517578125, 1392.6208496094, 13886.243164063, 0, 0, 1, -0, 1, -0, -1, 0, -0)
+Part50.Parent = Part
+
+local Mesh36 = Instance.new("BlockMesh")
+Mesh36.Offset = Vector3.new(0, -0.10000000149012, 0.28000000119209)
+Mesh36.Scale = Vector3.new(0.10000000149012, 2.5, 0.10000000149012)
+Mesh36.Parent = Part50
+
+local Part51 = Instance.new("Part")
+Part51.Anchored = true
+Part51.TopSurface = Enum.SurfaceType.Smooth
+Part51.Color = Color3.fromRGB(204, 142, 105)
+Part51.RightSurface = Enum.SurfaceType.Weld
+Part51.Size = Vector3.new(1, 0.40000173449516, 1)
+Part51.CFrame = CFrame.new(-4371.0517578125, 1392.6208496094, 13886.243164063)
+Part51.Parent = Part
+
+local Mesh37 = Instance.new("BlockMesh")
+Mesh37.Offset = Vector3.new(0, -0.10000000149012, 0.28000000119209)
+Mesh37.Scale = Vector3.new(0.10000000149012, 2.5, 0.10000000149012)
+Mesh37.Parent = Part51
+
+local Part52 = Instance.new("Part")
+Part52.Anchored = true
+Part52.TopSurface = Enum.SurfaceType.Smooth
+Part52.Color = Color3.fromRGB(204, 142, 105)
+Part52.RightSurface = Enum.SurfaceType.Weld
+Part52.Size = Vector3.new(1, 0.40000173449516, 1)
+Part52.CFrame = CFrame.new(-4371.0517578125, 1392.6207275391, 13886.243164063, 0.70710676908493, 0, 0.70710676908493, 0, 1, 0, -0.70710676908493, 0, 0.70710676908493)
+Part52.Parent = Part
+
+local Mesh38 = Instance.new("BlockMesh")
+Mesh38.Offset = Vector3.new(0, -0.10000000149012, 0.28000000119209)
+Mesh38.Scale = Vector3.new(0.10000000149012, 2.5, 0.10000000149012)
+Mesh38.Parent = Part52
+
+local Part53 = Instance.new("Part")
+Part53.Anchored = true
+Part53.TopSurface = Enum.SurfaceType.Smooth
+Part53.Color = Color3.fromRGB(204, 142, 105)
+Part53.RightSurface = Enum.SurfaceType.Weld
+Part53.Size = Vector3.new(1, 0.40000173449516, 1)
+Part53.CFrame = CFrame.new(-4371.0517578125, 1392.6207275391, 13886.243164063, -0.70710676908493, 0, 0.70710676908493, 0, 1, 0, -0.70710676908493, 0, -0.70710676908493)
+Part53.Parent = Part
+
+local Mesh39 = Instance.new("BlockMesh")
+Mesh39.Offset = Vector3.new(0, -0.10000000149012, 0.28000000119209)
+Mesh39.Scale = Vector3.new(0.10000000149012, 2.5, 0.10000000149012)
+Mesh39.Parent = Part53
+
+local Part54 = Instance.new("Part")
+Part54.Anchored = true
+Part54.TopSurface = Enum.SurfaceType.Smooth
+Part54.Color = Color3.fromRGB(204, 142, 105)
+Part54.RightSurface = Enum.SurfaceType.Weld
+Part54.Size = Vector3.new(1, 0.40000173449516, 1)
+Part54.CFrame = CFrame.new(-4371.0517578125, 1392.6208496094, 13886.243164063, 0, 0, -1, 0, 1, 0, 1, 0, 0)
+Part54.Parent = Part
+
+local Mesh40 = Instance.new("BlockMesh")
+Mesh40.Offset = Vector3.new(0, -0.10000000149012, 0.28000000119209)
+Mesh40.Scale = Vector3.new(0.10000000149012, 2.5, 0.10000000149012)
+Mesh40.Parent = Part54
+
+local Part55 = Instance.new("Part")
+Part55.Anchored = true
+Part55.TopSurface = Enum.SurfaceType.Smooth
+Part55.Color = Color3.fromRGB(204, 142, 105)
+Part55.RightSurface = Enum.SurfaceType.Weld
+Part55.Size = Vector3.new(1, 0.40000173449516, 1)
+Part55.CFrame = CFrame.new(-4371.0517578125, 1392.6207275391, 13886.243164063, 0.70710676908493, 0, -0.70710676908493, 0, 1, 0, 0.70710676908493, 0, 0.70710676908493)
+Part55.Parent = Part
+
+local Mesh41 = Instance.new("BlockMesh")
+Mesh41.Offset = Vector3.new(0, -0.10000000149012, 0.28000000119209)
+Mesh41.Scale = Vector3.new(0.10000000149012, 2.5, 0.10000000149012)
+Mesh41.Parent = Part55
+
+local Part56 = Instance.new("Part")
+Part56.Anchored = true
+Part56.TopSurface = Enum.SurfaceType.Smooth
+Part56.Color = Color3.fromRGB(204, 142, 105)
+Part56.RightSurface = Enum.SurfaceType.Weld
+Part56.Size = Vector3.new(1, 0.40000173449516, 1)
+Part56.CFrame = CFrame.new(-4371.0517578125, 1392.6207275391, 13886.243164063, -0.70710670948029, 0, -0.70710670948029, 0, 1, 0, 0.70710670948029, 0, -0.70710670948029)
+Part56.Parent = Part
+
+local Mesh42 = Instance.new("BlockMesh")
+Mesh42.Offset = Vector3.new(0, -0.10000000149012, 0.28000000119209)
+Mesh42.Scale = Vector3.new(0.10000000149012, 2.5, 0.10000000149012)
+Mesh42.Parent = Part56
+
+local Part57 = Instance.new("Part")
+Part57.Anchored = true
+Part57.TopSurface = Enum.SurfaceType.Smooth
+Part57.Color = Color3.fromRGB(204, 142, 105)
+Part57.RightSurface = Enum.SurfaceType.Weld
+Part57.Size = Vector3.new(1, 0.40000173449516, 1)
+Part57.CFrame = CFrame.new(-4371.0517578125, 1392.6208496094, 13886.243164063, -1, 0, 0, 0, 1, -0, 0, 0, -1)
+Part57.Parent = Part
+
+local Mesh43 = Instance.new("BlockMesh")
+Mesh43.Offset = Vector3.new(0, -0.10000000149012, 0.28000000119209)
+Mesh43.Scale = Vector3.new(0.10000000149012, 2.5, 0.10000000149012)
+Mesh43.Parent = Part57
+
+PartTerrainJoint.Part1 = Part6
+
+PartTerrainJoint1.Part1 = Part12
+
+PartTerrainJoint2.Part1 = Part13
+
+Weld.Part1 = Seat
+Weld.Part0 = Part19
+
+Part.Parent = workspace
